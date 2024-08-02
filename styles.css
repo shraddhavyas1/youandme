@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    color: #fff;
+    background: url('https://www.example.com/path-to-your-scenery-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.poem {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f0e5d8;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #e0d1b4;
+}
+
+p br {
+    content: "\A";
+    white-space: pre;
+}
